@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' type='text/css' media='screen' href='css/fontello.css'>
+  <title>Moje Portf</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #000000;
+      color: rgb(207, 201, 201);
+      text-align: center;
+      padding: 1em;
+      display: ;
+    }
+
+    section {
+      margin: 20px;
+      padding: 20px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(39, 39, 39, 0.1);
+      text-align: center;
+      
+    }
+
+    .gyt {
+      margin-bottom: 50px;
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+      height: 400px;
+    }
+
+    .cytat {
+      text-align: center;
+      height: 130px;
+    }
+
+    .spolecz{
+      margin-bottom: 50px;
+      margin: 120px;
+      padding: 30px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(39, 39, 39, 0.1);
+      text-align: center;
+
+    }
+
+    footer {
+      background-color: #ac4f4f;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .icon-reddit,
+    .icon-facebook-rect,
+    .icon-twitter-bird,
+    .icon-visa,
+    .icon-spotify-circled,
+    .icon-skype {
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+      width: 20px;
+    }
+
+    .icon-reddit:hover,
+    .icon-facebook-rect:hover,
+    .icon-twitter-bird:hover,
+    .icon-visa:hover,
+    .icon-spotify-circled:hover,
+    .icon-skype:hover {
+      color: rgb(145, 139, 139);
+    }
+
+    header:hover{
+      color: rgb(255, 255, 255);
+    }
+
+    section:hover{
+      color: rgb(0, 0, 0);
+    }
+
+    footer:hover{
+      color: rgb(7, 8, 88);
+    }
+
+    .obok{
+      display: flex;
+    }
+    .tekst{
+      text-align: right;
+      letter-spacing: 1px;
+      margin: 20px;
+    }
+    .tekst2{
+      text-align: right;
+      letter-spacing: 1px;
+      margin: 20px;
+    }
+    .tekst3{
+      text-align: right;
+      letter-spacing: 1px;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portfolio</h1>
+  </header>
+
+  <div class="obok">
+    <section class="cytat" >
+      <h2>"Błędy też się dla mnie liczą. Nie wykreślam ich ani z życia, ani z pamięci. I nigdy nie winię za nie innych."</h2>
+      <div class="spolecz">
+        <h3>Moje Media Społecznościowe</h3> <br>
+        <a href="https://www.reddit.com/"> <i class="icon-reddit" target="blank"></i> </a>
+        <a href="https://www.facebook.com/"> <i class="icon-facebook-rect" target="blank"></i> </a>
+        <a href="https://www.x.com/"> <i class="icon-twitter-bird" target="blank"></i> </a>
+        <a href="https://www.visa.com/"> <i class="icon-visa" target="blank"></i> </a>
+        <a href="https://www.spotify.com/"> <i class="icon-spotify-circled" target="blank"></i> </a>
+        <a href="https://www.skype.com/"> <i class="icon-skype" target="blank"></i> </a>   
+      </div>
+    </section>
+    
+    <section class="gyt">
+      <div class="portfolio-item">
+        <img src="https://a.allegroimg.com/original/1141b3/17509ab540598f222192f01f6528/Komputer-Gamingowy-Ryzen-RTX3060-64GB-1000GB-Win11" width="125px" class="zdjecie">
+        <p class="tekst">✓ tworzenie stron</p>
+        <p class="tekst2">✓ programowanie w Python</p> 
+        <p class="tekst3">✓ Github</p>
+      </div>
+
+      
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 </a></p>
+  </footer>
+
+</body>
+</html>
